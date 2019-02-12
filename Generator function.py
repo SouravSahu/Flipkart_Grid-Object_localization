@@ -1,6 +1,5 @@
 
-'''the generator function that i usefd in the main code.
-
+'''
 
 
 
