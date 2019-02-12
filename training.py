@@ -49,7 +49,7 @@ print(X_paths[:5])
 X_paths=np.array(X_paths, dtype='float32')
 
 
-///splitting into 13200:800 ratio
+splitting into 13200:800 ratio
 
 X_path_train = X_paths[:13200]
 Y_train = Y[:13200,:]
