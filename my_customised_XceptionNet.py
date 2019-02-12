@@ -1,6 +1,3 @@
-''' this is my implementation used of Customisable XceptionNet that I used during the
-
-'''
 #** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
 
 def my_customisable_XceptionNet(input_shape, number_of_inner_blocks=8, short_network=True, number_of_output_units=4):
