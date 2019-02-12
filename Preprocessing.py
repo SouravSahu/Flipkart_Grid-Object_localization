@@ -8,8 +8,7 @@ in (H, W, C) format.
 
 then
 for data augmentation, the images were flipped holrizontally and were apllied with some filters to double the data size.
-we tried to increase the data size to 6 times first but that turned out to be giving a validation iou of not more than 0.87.
-so we decided to double the datas size.'''
+'''
 
 
 
@@ -48,6 +47,7 @@ class HorizontalFlip(object):
 
         return img, bboxes
 
+'''
 ** ** ** ** ** ** ** ** ** *
 then
 the
@@ -60,7 +60,7 @@ inside
 the
 generator
 function.
-#** ** ** ** ** ** ** ** ** *
+** ** ** ** ** ** ** ** ** *         '''
 
 img = cv2.imread(x_path)
 
@@ -80,4 +80,4 @@ aug = iaa.SomeOf(1, [
 ], random_order=True)
 img_aug_list = aug.augment_images(img_list)
 
-'''''''** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+'''** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **'''
